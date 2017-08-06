@@ -1,5 +1,5 @@
 <template>
-  <div id="Carousele">
+  <section id="Carousele">
     <div class="row">
       <div class="col s11 m10  l6 offset-l3 offset-m1 kostul ">
         <carousel :perPage="1" :autoplayLoop="true" :loop="true" :autoplay="true" :autoplayHoverPause="true" :navigationEnabled="true" navigationNextLabel="<i class='fa fa-chevron-right hide-on-med-and-down'></i>" navigationPrevLabel="<i class='fa fa-chevron-left hide-on-med-and-down'></i>" >
@@ -40,7 +40,7 @@
     </div>
 
 
-  </div>
+  </section>
 </template>
 <script>
 import { Carousel, Slide } from 'vue-carousel';
