@@ -32,7 +32,7 @@
       <div  class="TopLine" v-bind:class="[{ styleObjectScrolled: scrolled, styleObject: notscrolled}]">
         <div class="container">
 
-        <a href="#" data-activates="slide-out" class="button-collapse hide-on-med-only"> <i class="fa fa-bars fac"></i></a>
+        <a href="#" data-activates="slide-out" class="button-collapse"> <i class="fa fa-bars fac"></i></a>
 
 
         <div class="row ">
@@ -72,7 +72,7 @@
               <h1 class="wellcome-h1 center-align wow fadeInUp animated">What happens tomorrow?</h1>
               <p class="wellcome-p center-align wow fadeInUp animated">The sight of the tumblers restored Bob Sawyer to a degree of equanimity which he had not possessed since his interview with his landlady. His face brightened up, and he began to feel quite convivial.</p>
               <div class="">
-                <a href="#" class="watch btn wow fadeInUp   ">Watch Video</a>
+                <a href="https://www.youtube.com/watch?v=QTMhL8cuRlc" class="watch btn wow fadeInUp   "  target="_blank">Watch Video</a>
               </div>
           </div>
 
@@ -126,9 +126,13 @@ handleScroll () {
 
 
 
+
+
 html, body
 	height: 100%
-
+.btn:hover
+  // h-length, v-length, blur, spread, colour
+  box-shadow: none !important
 #app > header > div.flex-container > div > p
   width: 70%
   margin-left: 15%
@@ -222,7 +226,7 @@ html, body
   margin-top: 40px
   color: #26272d
   border: 1px solid rgba(38, 39, 45, 0.1)
-  box-shadow: none
+  box-shadow: none !important
   text-transform: none
   line-height: 1.3333333
   font-family: Lato, sans-serif
@@ -239,6 +243,7 @@ html, body
     color: rgba(38, 39, 45, 0.8) !important
     transition: color 0.3s !important
     background-color: transparent !important
+    box-shadow: none !important
 
 
 
