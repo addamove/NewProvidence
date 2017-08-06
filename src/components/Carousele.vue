@@ -127,7 +127,7 @@ export default {
 
 @media screen and ( max-width: 582px )
   .kostul
-    margin-left: 27px !important
+    margin-left: 10px !important
   .VueCarousel-dot
     margin: -20px 25px !important
     width: 45px

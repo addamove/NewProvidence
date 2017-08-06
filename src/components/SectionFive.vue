@@ -244,6 +244,8 @@ export default {
 @media screen and ( max-width: 620px )
   .table-price
     max-width: 100%
+  .container
+    width: 95%
 
   .prices
 

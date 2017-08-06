@@ -431,6 +431,9 @@ li
     margin-left: 2px !important
   .logo
     margin: 16px -10px !important
+  .box
+    width: auto
+
 
 
 
