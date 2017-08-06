@@ -169,6 +169,7 @@ footer
   &:hover
     opacity: 0.8
     transition: all 0.75s
+    background-color: #6fc754 !important
 @media screen and ( max-width: 650px )
   .socials
     margin-left: -55%

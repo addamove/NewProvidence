@@ -126,6 +126,7 @@ hr
   &:hover
     opacity: 0.8
     transition: all 0.75s
+    background-color: #6fc754 !important
   &.btnblack
     line-height: 1.3em
     padding-right: 10px
@@ -142,6 +143,9 @@ hr
     border-radius: 30px
     font-size: 12px
     text-align: left
+    &:hover
+      background-color: #131315 !important
+
     span
       position: absolute
       top: 15

@@ -123,6 +123,9 @@ handleScroll () {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="sass">
 
+
+
+
 html, body
 	height: 100%
 
@@ -235,6 +238,7 @@ html, body
   &:hover
     color: rgba(38, 39, 45, 0.8) !important
     transition: color 0.3s !important
+    background-color: transparent !important
 
 
 

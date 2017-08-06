@@ -69,6 +69,8 @@ export default {
   height: 40px
   position: absolute
   left: 50%
+  &:hover
+    background-color: #ffffff !important
 
 .btn-first
   box-shadow: none
@@ -98,6 +100,9 @@ export default {
   &:hover
     opacity: 0.9 !important
     transition: all 0.5s !important
+
+    background-color: #267df4 !important
+
 .phone
   display: block
   position: absolute
